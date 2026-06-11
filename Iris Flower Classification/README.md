@@ -111,39 +111,44 @@ The following analyses were performed:
 ## 📁 Project Structure
 
 ```text
-CodeAlpha_IrisFlowerClassification/
+Iris Flower Classification/
 │
+├── pictures/
 ├── Iris.csv
-├── iris_classification.ipynb
 ├── README.md
-├── personal_notes.md
-├── report/
-└── pictures/
+├── iris_classification.ipynb
+└── requirements.txt
 ```
 
 ---
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/Tushars-13/codealpha_tasks.git
 ```
 
-2. Install required libraries
+### 2. Navigate to the project directory
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+cd "Iris Flower Classification"
 ```
 
-3. Open the Jupyter Notebook
+### 3. Install required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-4. Run all cells in `iris_classification.ipynb`
+### 5. Run all cells in `iris_classification.ipynb`
 
 ---
 
@@ -172,6 +177,7 @@ Through this project, I learned:
 
 ## 👨‍💻 Author
 
-Tushar Shukla
+**Tushar Shukla**
 
 Data Science Intern – CodeAlpha
+
